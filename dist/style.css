@@ -38,6 +38,9 @@ z-index: 1000;
 .board-piece-two{
     border: 1px solid black;
 }
+.board-piece-two:hover{
+   background-color: rgba(0, 119, 255, 0.539);
+}
 .hit{
     background-color: red;
 }
