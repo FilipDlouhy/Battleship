@@ -33,6 +33,7 @@ function shootAndWin(){
                 console.log("debil")
             }else{
                 if(event.target.classList.contains("enemy")){
+                    event.target.classList.remove("hover");
                     event.target.classList.add("hit");
                     
                     countOne++;
@@ -41,6 +42,7 @@ function shootAndWin(){
                 leCheck()
                 }
                 else{
+                    event.target.classList.remove("hover");
                     event.target.classList.add("miss");
                     
                     leCheck()
